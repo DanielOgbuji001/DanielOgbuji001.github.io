@@ -1,0 +1,38 @@
+@import 'navigation/navigation.css';
+@import 'toggle-menu/components/toggle-menu-light.css';
+@import 'toggle-menu/components/toggle-menu-dark.css';
+@import 'main-content/main-content.css';
+@import 'main-content/main-content-dark.css';
+@import 'change-theme/change-theme.css';
+@import 'footer/footer.css';
+@import 'footer/footer-dark.css';
+
+@font-face {
+    font-family: 'ProductSans Light';
+    src: url('../fonts/ProductSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'ProductSans Regular';
+    src: url('../fonts/ProductSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ProductSans Medium';
+    src: url('../fonts/ProductSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'ProductSans Bold';
+    src: url('../fonts/ProductSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'ProductSans Black';
+    src: url('../fonts/ProductSans-Black.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

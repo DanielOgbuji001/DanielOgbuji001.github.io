@@ -1,0 +1,145 @@
+.content-pane {
+    display: grid;
+    grid-template-columns: calc(50% - 14px) calc(50% - 14px);
+    gap: 28px;
+    justify-content: space-evenly;
+}
+
+.content-pane-intro {
+    font-family: 'ProductSans Medium';
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #1C1B1F;
+}
+
+.detail-card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #CAC4D0;
+    border-radius: 12px;
+}
+
+.detail-card-image {
+    background-image: url('../../../images/image5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.detail-card-image.two {
+    background-image: url('../../../images/image7.jpg');
+}
+
+.detail-card-image.three {
+    background-image: url('../../../images/image6.jpg');
+}
+
+.detail-card-image.four {
+    background-image: url('../../../images/image8.jpg');
+}
+
+.card-detail {
+    display: grid;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card-detail h2 {
+    font-family: 'ProductSans Medium';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    color: #1C1B1F;
+}
+
+.card-detail h3 {
+    font-family: 'ProductSans Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #49454F;
+}
+
+.card-detail p {
+    font-family: 'ProductSans Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    color: #49454F;
+    margin-bottom: auto;
+}
+
+.card-detail a {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 8px;
+    text-decoration: none;
+    font-family: 'ProductSans Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6750A4;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 40px;
+    margin-left: auto;
+    border: 1px solid #79747E;
+    border-radius: 100px;
+}
+
+.card-detail a:hover {
+    background-color: #f3edf7;
+}
+
+.card-detail a:active {
+    background-color: #ece6f3;
+}
+
+@media screen and (max-width: 1240px) {
+    .content-pane-intro {
+        font-size: 40px;
+    }
+
+    .card-detail h2 {
+        font-size: 21px;
+    }
+
+    .card-detail h3 {
+        font-size: 16px;
+    }
+
+    .card-detail p {
+        font-size: 14px;
+    }
+
+    .card-detail a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 904px) {
+    .content-pane {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 28px;
+        justify-content: space-evenly;
+    }
+}

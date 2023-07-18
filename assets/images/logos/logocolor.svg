@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="50"
+   viewBox="0 0 180 50"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="logocolor.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12269"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="3.2842761"
+     inkscape:cx="150.41366"
+     inkscape:cy="27.403299"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid12392"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs12264" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect13648"
+       style="fill:#d0bcff;fill-rule:evenodd;stroke:#404040;stroke-width:0;fill-opacity:1"
+       d="M 0 0 L 0 15 L 15 15 L 15 0 L 0 0 z M 0 20 L 0 50 L 15 50 L 15 20 L 0 20 z " />
+    <path
+       id="rect13652"
+       style="fill:#9a82db;fill-rule:evenodd;stroke:#404040;stroke-width:0;fill-opacity:1"
+       d="M 20 0 L 20 15 L 20 35 L 20 50 L 35 50 L 70 50 L 70 35 L 35 35 L 35 15 L 70 15 L 70 0 L 35 0 L 20 0 z " />
+    <rect
+       style="fill:#6750a4;fill-opacity:1;fill-rule:evenodd;stroke:#404040;stroke-width:0"
+       id="rect400"
+       width="50"
+       height="15"
+       x="130"
+       y="0" />
+    <rect
+       style="fill:#6750a4;fill-rule:evenodd;stroke:#404040;stroke-width:0;fill-opacity:1"
+       id="rect400-0"
+       width="50"
+       height="15"
+       x="0"
+       y="-160"
+       transform="rotate(90)" />
+    <path
+       id="rect7694"
+       style="fill:#9a82db;fill-rule:evenodd;stroke:#404040;stroke-width:0;fill-opacity:1"
+       d="m 100,25 h 10 V 40 H 100 Z M 75,15 H 90 V 50 H 75 Z m 35,0 h 15 V 40 H 110 Z M 75,0 h 50 V 15 H 75 Z" />
+  </g>
+</svg>

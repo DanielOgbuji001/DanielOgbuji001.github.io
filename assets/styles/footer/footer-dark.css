@@ -1,0 +1,40 @@
+hr.dark {
+    background-color: #49454F;
+}
+
+.textend.dark img {
+    border-color: #49454F;
+}
+
+.textend.dark p {
+    border-color: #49454F;
+    color: #CAC4D0;
+}
+
+.linkend.dark a {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h4.dark {
+    color: #E8DEF8
+}
+
+.linkend-state-layer.dark {
+    background-color: #4a4458;
+}
+
+.linkend-state-layer.dark:hover {
+    background-color: #575065;
+}
+
+.linkend-state-layer.dark:focus, .linkend-state-layer.dark:active {
+    background-color: #5d566b;
+}
+
+.linkend-state-layer.dark p {
+    color: #E8DEF8
+}
+
+.copyright.dark p {
+    color: white;
+}

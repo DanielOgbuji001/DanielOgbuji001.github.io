@@ -1,0 +1,33 @@
+#toggle-dark-mode {
+    background-color: #f7f2f9;
+    position: absolute;
+    left: 28px;
+    bottom: 28px;
+    width: 48px;
+    height: 48px;
+    color: #49454F;
+    border: 1px solid #49454F;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#toggle-dark-mode:hover {
+    background-color: rgba(28, 27, 31, 0.08);
+    color: #1C1B1F;
+}
+
+#toggle-dark-mode:focus {
+    background-color: rgba(28, 27, 31, 0.12);
+    color: #1C1B1F;
+}
+
+#toggle-dark-mode:active {
+    background-color: rgba(28, 27, 31, 0.12);
+}
+
+@media screen and (max-width: 1240px) {
+    #toggle-dark-mode {
+        left: 16px;
+        bottom: 16px;
+    }
+}

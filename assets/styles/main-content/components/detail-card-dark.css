@@ -1,0 +1,37 @@
+.content-pane-intro.dark {
+    color: #E6E1E5;
+}
+
+.detail-card.dark {
+    border: 1px solid #49454F;
+}
+
+.detail-card-image.dark {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+}
+
+.card-detail.dark h2 {
+    color: #E6E1E5;
+}
+
+.card-detail.dark h3 {
+    color: #CAC4D0;
+}
+
+.card-detail.dark p {
+    color: #CAC4D0;
+}
+
+.card-detail.dark a {
+    color: #D0BCFF;
+    border: 1px solid #938F99;
+}
+
+.card-detail.dark a:hover {
+    background-color: #2b2831;
+}
+
+.card-detail.dark a:active {
+    background-color: #322f3a;
+}

@@ -1,0 +1,51 @@
+.navigation-rail.dark {
+    background: linear-gradient(0deg, rgba(208, 188, 255, 0.05), rgba(208, 188, 255, 0.05)), #1C1B1F;
+}
+
+.rail-logo.dark {
+    background-image: url('../../../images/icons/iconbright.svg');
+}
+
+.segment.dark {
+    color: #CAC4D0;
+}
+
+.segment.dark:hover {
+    color: #E6E1E5;
+}
+
+.segment.dark:focus {
+    color: #E6E1E5;
+}
+
+.segment.dark:hover .icon-state-layer {
+    background-color: rgba(230, 225, 229, 0.08);
+}
+
+.segment.dark:focus .icon-state-layer {
+    background-color: rgba(230, 225, 229, 0.12);
+}
+
+.segment.dark:active .icon-state-layer {
+    background-color: rgba(230, 225, 229, 0.12);
+}
+
+.segment.active.dark {
+    color: #E8DEF8;
+}
+
+.segment.active.dark .icon-state-layer{
+    background-color: #4A4458;
+}
+
+.segment.active.dark:hover .icon-state-layer{
+    background-color: rgba(232, 222, 248, 0.08);
+}
+
+.segment.active.dark:focus .icon-state-layer{
+    background-color: rgba(232, 222, 248, 0.12);
+}
+
+.segment.active.dark:active .icon-state-layer{
+    background-color: rgba(232, 222, 248, 0.12);
+}

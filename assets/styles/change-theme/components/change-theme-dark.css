@@ -1,0 +1,19 @@
+#toggle-dark-mode.dark {
+    background-color: #26242a;
+    color: #CAC4D0;
+    border: 1px solid #CAC4D0;
+}
+
+#toggle-dark-mode.dark:hover {
+    background-color: rgba(230, 225, 229, 0.08);
+    color: #E6E1E5;
+}
+
+#toggle-dark-mode.dark:focus {
+    background-color: rgba(230, 225, 229, 0.12);
+    color: #E6E1E5;
+}
+
+#toggle-dark-mode.dark:active {
+    background-color: rgba(230, 225, 229, 0.12);
+}

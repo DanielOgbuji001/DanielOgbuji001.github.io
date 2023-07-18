@@ -1,0 +1,9 @@
+#toggle-menu.dark {
+    color: #CAC4D0;
+    border-color: transparent;
+}
+
+#toggle-menu.dark:hover {
+    background-color: rgba(230, 225, 229, 0.08);
+    color: #E6E1E5;
+}

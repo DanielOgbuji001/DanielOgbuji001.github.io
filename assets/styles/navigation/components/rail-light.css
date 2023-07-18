@@ -1,0 +1,168 @@
+@media screen and (max-width: 1240px) {
+    .navigation-drawer {
+        display: none;
+    }
+
+    .navigation-menu, .toggle-cover, #toggle-menu {
+        display: none;
+    }
+
+    .navigation-rail {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: flex-start;
+        padding: 24px 0px 56px;
+        gap: 40px;
+        position: relative;
+        width: 80px;
+        height: 100vh;
+        background: linear-gradient(0deg, rgba(103, 80, 164, 0.05), rgba(103, 80, 164, 0.05)), #FFFBFE;
+    }
+
+    .rail-logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 80px;
+        height: 24px;
+        flex: none;
+        font-size: 0px;
+        flex-grow: 0;
+    }
+
+    .rail-logo {
+        display: flex;
+        flex-direction: row;
+        background-image: url('../../../images/icons/icondark.svg');
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .destinations {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        gap: 12px;
+        width: 80px;
+        height: fit-content;
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .segment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 70px;
+        height: 56px;
+        color: #49454F;
+        text-decoration: none;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .segment:hover {
+        color: #1C1B1F;
+    }
+
+    .segment:focus {
+        color: #1C1B1F;
+    }
+
+    .segment:hover .icon-state-layer {
+        background-color: rgba(28, 27, 31, 0.08);
+    }
+
+    .segment:focus .icon-state-layer {
+        background-color: rgba(28, 27, 31, 0.12);
+    }
+
+    .segment:active .icon-state-layer {
+        background-color: rgba(28, 27, 31, 0.12);
+    }
+
+    .segment.active {
+        color: #1D192B;
+    }
+
+    .segment.active .icon-state-layer{
+        background-color: #E8DEF8;
+    }
+
+    .segment.active:hover .icon-state-layer{
+        background-color: rgba(29, 25, 43, 0.08);
+    }
+
+    .segment.active:focus .icon-state-layer{
+        background-color: rgba(29, 25, 43, 0.12);
+    }
+
+    .segment.active:active .icon-state-layer{
+        background-color: rgba(29, 25, 43, 0.12);
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 56px;
+        height: 32px;
+        border-radius: 100px;
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .icon-state-layer {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 16px;
+        width: 56px;
+        height: 32px;
+        border-radius: 100px;
+        flex: none;
+        flex-grow: 0;
+    }
+
+    .label {
+        width: 70px;
+        height: 16px;
+        font-family: 'ProductSans Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .divider-container {
+        width: 70px;
+        padding: 0;
+    }
+
+    .divider {
+        width: 60px;
+        margin: 0 5px;
+    }
+}

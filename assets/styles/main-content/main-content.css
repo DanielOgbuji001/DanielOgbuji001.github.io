@@ -1,0 +1,55 @@
+@import 'components/hero-light.css';
+@import 'components/hero-dark.css';
+@import 'components/notification-card-light.css';
+@import 'components/notification-card-dark.css';
+@import 'components/detail-card-light.css';
+@import 'components/detail-card-dark.css';
+@import 'components/header.css';
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFBFE;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#main-content {
+    width: 100%;
+    overflow-y: auto;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 28px;
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+
+@media screen and (max-width: 904px) {
+    #main-content {
+        margin-top: 72px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+}
